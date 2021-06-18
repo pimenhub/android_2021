@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716D6D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_marginTop="100sp"
+        android:src="@drawable/ic_newspaper"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="Ver Noticias"
+        android:backgroundTint="@android:color/background_dark"
+        android:layout_margin="25sp"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>

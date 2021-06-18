@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="55sp"
+        android:text="Suma"
+        android:layout_marginBottom="65sp"
+     />
+    <EditText
+        android:id="@+id/txtN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_margin="10sp"
+        android:hint="Ingrese el primer numero"
+        />
+    <EditText
+        android:id="@+id/txtN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtN1"
+        android:layout_margin="10sp"
+        android:hint="Ingrese el segundo numero"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtN2"
+        android:layout_marginTop="55sp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:layout_below="@id/txtResultado"
+        android:layout_marginTop="55sp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="+"
+        android:textSize="35sp"
+        android:onClick="pulsar"
+        />
+
+</RelativeLayout>

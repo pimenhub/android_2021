@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:src="@drawable/ic_calendar"
+        android:layout_marginTop="20sp"
+        />
+    <TextView
+        android:id="@+id/txtTitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad de Inicio"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_below="@id/txtTitulo1"
+        android:layout_margin="35sp"
+        android:text="Ir a la siguiente Actividad"
+        android:onClick="pulsar"
+        />
+
+</RelativeLayout>

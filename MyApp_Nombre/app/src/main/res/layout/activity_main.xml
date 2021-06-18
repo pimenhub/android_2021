@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTituto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bienvenido"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        />
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTituto"
+        android:layout_marginTop="35sp"
+        android:layout_marginLeft="10sp"
+        android:hint="Ingrese su nombre"
+        />
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginTop="35sp"
+        android:layout_marginLeft="10sp"
+        android:hint="Ingrese su edad"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEdad"
+        android:layout_marginTop="65sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="65sp"
+        />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:layout_margin="25sp"
+        android:text="Mostrar"
+        android:onClick="pulsar"
+        />
+
+
+</RelativeLayout>

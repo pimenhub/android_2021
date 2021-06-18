@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menú de Repaso 1"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="45sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgHome"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_below="@+id/txtTitulo"
+        android:src="@drawable/ic_home"
+        android:layout_centerInParent="true"
+        android:layout_margin="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgHome"
+        android:layout_centerInParent="true"
+        android:text="Actividad 2"
+        android:layout_marginTop="45sp"
+        android:onClick="onClick"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAIntermedio">
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="300sp"
+        android:src="@drawable/ic_stationery"
+        android:layout_marginTop="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad Intermedia"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_green_light"
+        />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo2"
+        android:text="Ir a la actividad Inicial"
+        android:layout_margin="25sp"
+        android:onClick="pulsar"
+        />
+    <Button
+        android:id="@+id/btnAvanzar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegresar"
+        android:text="Ir a la actividad Final"
+        android:layout_margin="25sp"
+        android:onClick="pulsar"
+        />
+
+
+</RelativeLayout>

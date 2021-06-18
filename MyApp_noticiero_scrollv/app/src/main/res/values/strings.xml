@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Noticiero</string>
+
+    <string name="texto1">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit, ad vestibulum
+        nunc odio posuere cubilia, est facilisi per orci suspendisse nec. Erat
+        fusce scelerisque nunc ad nulla dictumst venenatis cras mattis lacus quis,
+        euismod hendrerit dictum cubilia viverra elementum nullam vehicula magna.
+        A duis porta faucibus nam non sociis metus mauris scelerisque, turpis sodales
+        volutpat interdum iaculis lacinia vestibulum nostra elementum, nunc hendrerit
+        ante rutrum odio natoque cum etiam. Tempor ac massa ullamcorper risus potenti
+        aliquam dis nulla quisque, vel netus odio posuere cras justo turpis leo.
+
+        Duis nisl est commodo augue venenatis fames, nullam egestas ante pharetra leo,
+        porttitor varius scelerisque cum dictum. Natoque nisi quisque cum sapien
+        curae non curabitur in parturient, arcu sociosqu pretium torquent mollis
+        fusce venenatis posuere suscipit, massa leo ultrices auctor litora aptent
+        cursus orci. Id dictum sed praesent egestas a tristique rutrum fringilla dis,
+        vitae risus sodales vehicula class sollicitudin eget ligula mattis leo,
+        tortor pellentesque donec nisi cursus nascetur curabitur duis. Hendrerit
+        maecenas class bibendum himenaeos egestas integer vel nisi vitae eget
+        commodo, ridiculus netus fringilla id aliquet cursus imperdiet ullamcorper
+        velit vehicula nunc et, nostra porttitor cum facilisi litora nascetur rhoncus
+        convallis inceptos urna.
+
+        Nam ultricies etiam consequat ad diam hendrerit aliquam ac, non montes ultrices urna
+        duis pellentesque scelerisque, interdum senectus per nunc fames fringilla
+        varius. Porta magnis sed potenti varius pulvinar pharetra dui risus donec
+        condimentum magna feugiat, habitasse nascetur aptent litora scelerisque quam
+        dapibus cum tristique pellentesque. Libero fusce sociis aliquet pellentesque
+        habitant in vulputate pretium turpis fames magna, non vel nisi facilisis lectus
+        hac nulla etiam a arcu, primis sodales curae est dui vivamus cum donec odio
+        imperdiet. Ante habitasse in ultricies suspendisse accumsan congue sociis
+        neque non sollicitudin, eget morbi mollis quisque consequat porttitor
+        phasellus hac fermentum, ligula curae egestas volutpat ac commodo dapibus
+        odio gravida.
+    </string>
+
+    <string name="texto2">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit,
+        ad vestibulum nunc odio posuere cubilia, est facilisi per
+        orci suspendisse nec. Erat fusce scelerisque nunc ad nulla
+        dictumst venenatis cras mattis lacus quis, euismod hendrerit
+        dictum cubilia viverra elementum nullam vehicula magna. A duis
+        porta faucibus nam non sociis metus mauris scelerisque, turpis
+        sodales volutpat interdum iaculis lacinia vestibulum nostra elementum,
+        nunc hendrerit ante rutrum odio natoque cum etiam. Tempor ac massa
+        ullamcorper risus potenti aliquam dis nulla quisque, vel netus odio
+        posuere cras justo turpis leo.
+
+        Duis nisl est commodo augue venenatis fames, nullam egestas ante pharetra leo,
+        porttitor varius scelerisque cum dictum. Natoque nisi quisque cum sapien
+        curae non curabitur in parturient, arcu sociosqu pretium torquent mollis
+        fusce venenatis posuere suscipit, massa leo ultrices auctor litora aptent
+        cursus orci. Id dictum sed praesent egestas a tristique rutrum fringilla dis,
+        vitae risus sodales vehicula class sollicitudin eget ligula mattis leo,
+        tortor pellentesque donec nisi cursus nascetur curabitur duis. Hendrerit
+        maecenas class bibendum himenaeos egestas integer vel nisi vitae eget
+        commodo, ridiculus netus fringilla id aliquet cursus imperdiet ullamcorper
+        velit vehicula nunc et, nostra porttitor cum facilisi litora nascetur rhoncus
+        convallis inceptos urna.
+
+    </string>
+
+    <string name="texto3">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit,
+        ad vestibulum nunc odio posuere cubilia, est facilisi per
+        orci suspendisse nec. Erat fusce scelerisque nunc ad nulla
+        dictumst venenatis cras mattis lacus quis, euismod hendrerit
+        dictum cubilia viverra elementum nullam vehicula magna. A duis
+        porta faucibus nam non sociis metus mauris scelerisque, turpis
+        sodales volutpat interdum iaculis lacinia vestibulum nostra elementum,
+        nunc hendrerit ante rutrum odio natoque cum etiam. Tempor ac massa
+        ullamcorper risus potenti aliquam dis nulla quisque, vel netus odio
+        posuere cras justo turpis leo.
+    </string>
+
+
+</resources>
