@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lista de Vocales</string>
+
+    <string name="dato1">
+        Hola a todos soy la vocal A
+    </string>
+    <string name="dato2">
+        Hola a todos soy la vocal E
+    </string>
+    <string name="dato3">
+        Hola a todos soy la vocal I
+    </string>
+    <string name="dato4">
+        Hola a todos soy la vocal O
+    </string>
+    <string name="dato5">
+        Hola a todos soy la vocal U
+    </string>
+</resources>
