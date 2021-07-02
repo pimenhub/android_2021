@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Celebraciones</string>
+
+    <string name="mes1">
+        Celebración: Año Nuevo \n\n
+        En enero, como en el resto del mundo, los guatemaltecos celebran el Año Nuevo. Para los habitantes de este país esta fecha es un motivo de celebración en familia. Lo más curioso del Año Nuevo en Guatemala es la quema de muñecos, una forma de eliminar todo lo mal del año que acaba. Los muñecos simbolizan todo lo que se quiere dejar atrás para entrar con buen pie en el nuevo año. Por supuesto también hay fuegos artificiales y celebraciones con música y baile por todo el país.
+    </string>
+    <string name="mes2">
+        Celebración: Huelga de Dolores \n\n
+        En febrero, las fiestas populares en Guatemala se dividen en varias fechas: el 20 de febrero es el día de la Marimba, instrumento musical que es símbolo patrio del país. El 26 de febrero se celebra el día del Patrimonio Cultural de la Nación. Este día se celebra la primera visita oficial del gobierno en 1848 a Tikal, ciudad maya de gran importancia. \n
+        Otro de los eventos en Guatemala que destacan por su originalidad es la Huelga de Dolores, que viene a ser un desfile de carnaval. El desfile toma las calles del centro histórico de la ciudad de Guatemala. En el cual, grupos de estudiantes encapuchados gritan canciones de protesta contra el gobierno.
+    </string>
+    <string name="mes3">
+        Celebración: Semana Santa \n\n
+        Las festividades en Guatemala para los meses de marzo y abril giran entorno a la Semana Santa. Los guatemaltecos viven esta celebración cristiana con mucho fervor, cubren las calles de flores y sacan a procesión a sus santos.\n
+        En Chichicastenango las procesiones son tan impresionantes como en Antigua Guatemala, pero se destacan porque los lugareños van vestidos con el traje típico. La misa se celebra en idioma quiché, envuelta entre inciensos mayas y plegarias ancestrales.
+    </string>
+    <string name="mes4">
+        Celebración: Semana Santa \n\n
+        Las festividades en Guatemala para los meses de marzo y abril giran entorno a la Semana Santa. Los guatemaltecos viven esta celebración cristiana con mucho fervor, cubren las calles de flores y sacan a procesión a sus santos.\n
+        En Chichicastenango las procesiones son tan impresionantes como en Antigua Guatemala, pero se destacan porque los lugareños van vestidos con el traje típico. La misa se celebra en idioma quiché, envuelta entre inciensos mayas y plegarias ancestrales.
+    </string>
+    <string name="mes5">
+        Celebración: Santa Cruz \n\n
+        Del 1 al 20 de mayo tiene lugar la fiesta en honor a la Santa Cruz y el Niño de Atocha en Amatitlán. En esta fiesta tienen lugar diferentes eventos sociales y culturales, así como danzas folclóricas. Del 17 al 21, en Patzún y Chimaltenango tienen lugar diversas festividades: la Fiesta en honor a San Bernardino de Sena y el Corpus Cristi.
+    </string>
+    <string name="mes6">
+        Celebración: Baile de los Gigantes \n\n
+        El baile de los Gigantes en Antigua es una de las festividades en Guatemala que se celebran durante el mes de junio. Consiste en un baile folklórico de gigantes y cabezudos que toman la plaza de la Catedral de Antigua Guatemala. El baile, según la tradición anuncia a la población el día del Corpus Christi.
+    </string>
+    <string name="mes7">
+        Celebración: Fiesta Nacional Indígena Rabin Ajaw \n\n
+        Una de las fiestas populares de Guatemala más tradicionales es la Fiesta Nacional Indígena Rabin Ajaw. Tanto en Verapaces como en Cobán, se elige y corona a la reina indígena nacional Rabin Ajaw. Todo el país participa en esta fiesta tradicional que está considerada como el festival maya más importante de Guatemala.\n
+        También en julio se celebra el Baile del Palo Volador en Cubulco, que coincide con las fiestas en honor a Santiago Apóstol. Los bailadores, vestidos de negro, danzan alrededor de un palo de 30 metros, del que se cuelgan boca abajo. Una celebración que sin duda no te puedes perder.
+    </string>
+    <string name="mes8">
+        Celebración: Festival Folklórico Nacional El Paab’anc \n\n
+        En agosto, uno de los eventos que se celebra en Guatemala es el Festival Folklórico Nacional El Paab’anc en Cobán. Esta fiesta tradicional Q’eqchi es una celebración religiosa de los pueblos indígenas de Alta Verapaz. Es una fiesta maya donde se encienden velas y se realizan ofrendas y bailes tradicionales.
+    </string>
+    <string name="mes9">
+        Celebración: Día de la Independencia \n\n
+        En septiembre, el día 15, Guatemala celebra su Día de la Independencia, conseguida el mismo día del año 1821.
+    </string>
+    <string name="mes10">
+        Celebración: San Francisco de Asís \n\n
+        El mes de octubre dentro de las fiestas populares en Guatemala da la bienvenida a las Fiestas en honor a San Francisco de Asís en Totonicapán. Tienen lugar varios eventos sociales, culturales y deportivos, así como danzas folklóricas.
+    </string>
+    <string name="mes11">
+        Celebración: Todos los Santos \n\n
+        Pero sin duda, es el mes de noviembre el que trae una de las festividades en Guatemala más sorprendentes. El día de Todos los Santos se celebra el Festival de Barriletes Gigantes en Sumpango. Esta fiesta es una mezcla de tradición, música y color, donde los barriletes, o cometas gigantes ahuyentan a los malos espíritus.
+    </string>
+    <string name="mes12">
+        Celebración: Quema del Diablo \n\n
+        De entre todas las fiestas populares de Guatemala, la Quema del Diablo es un evento mágico-religioso que se celebra cada 7 de diciembre. Su cometido es realizar una limpieza espiritual mediante la quema de figuras de papel que simbolizan al diablo.\n
+        Si puedes hacer coincidir la fecha de tu viaje a Guatemala con alguna de estas festividades, seguro que disfrutarás el doble de la cultura y tradiciones de Guatemala.
+    </string>
+</resources>

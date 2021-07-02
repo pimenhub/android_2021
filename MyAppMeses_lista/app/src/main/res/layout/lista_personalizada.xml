@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLista"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:src="@drawable/ic_calendar_variant"
+        android:layout_margin="25sp"
+        />
+    <TextView
+        android:id="@+id/txtNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/imgLista"
+        android:layout_marginTop="32sp"
+        android:layout_marginRight="5sp"
+        />
+    <TextView
+        android:id="@+id/txtLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_toRightOf="@id/txtNum"
+        android:layout_marginTop="25sp"
+        />
+    <TextView
+        android:id="@+id/txtAnio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/imgLista"
+        android:layout_below="@id/txtLista"
+        android:layout_marginTop="5sp"
+        />
+
+</RelativeLayout>
