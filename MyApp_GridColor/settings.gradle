@@ -1,0 +1,2 @@
+rootProject.name = "MyApp_GridColor"
+include ':app'

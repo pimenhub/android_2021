@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mascotas"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginBottom="25sp"
+        android:textColor="#F4D03F"
+        />
+    <GridView
+        android:id="@+id/gridViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:gravity="center"
+        android:columnWidth="90sp"
+        android:numColumns="3"
+        android:horizontalSpacing="10sp"
+        android:verticalSpacing="10sp"
+        android:stretchMode="columnWidth"
+        />
+
+
+</RelativeLayout>
