@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_toRightOf="@id/img"
+        android:textColor="@android:color/holo_red_dark"
+        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="25sp"
+        />
+
+
+</RelativeLayout>
