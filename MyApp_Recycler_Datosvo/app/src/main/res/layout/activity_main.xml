@@ -7,25 +7,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include
-        android:id="@+id/toolbarId"
-        layout="@layout/toolbar"
-        />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RecyclerView"
+        android:text="RecyclarView con VO"
         android:textSize="35sp"
         android:gravity="center"
         android:layout_margin="25sp"
         />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         />
+
 
 </LinearLayout>
