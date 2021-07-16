@@ -1,0 +1,2 @@
+rootProject.name = "MyAppFragmentEstaticos"
+include ':app'

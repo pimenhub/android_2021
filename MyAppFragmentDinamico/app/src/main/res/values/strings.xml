@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyAppFragmentDinamico</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="texto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non justo ac tortor scelerisque ullamcorper cursus vitae eros. Nunc dui ipsum, blandit mattis odio a, cursus ultrices lorem. Donec auctor venenatis lorem, vel interdum ligula dictum sit amet. Vestibulum sollicitudin enim et massa iaculis, nec condimentum sem pretium. Mauris id vehicula dolor, nec pretium mi. Curabitur mi nisi, porta vel placerat rhoncus, pretium eget lectus. Praesent pulvinar bibendum neque nec commodo. Vivamus a molestie est. Nullam consequat eu felis finibus interdum. Ut placerat lectus a aliquam euismod. Mauris nec imperdiet massa. Integer convallis est eu fringilla interdum. Pellentesque et velit ligula.
+        \n\n
+        Sed quis interdum lacus, nec convallis tellus. Aliquam erat volutpat. Morbi ut lacus sagittis, facilisis eros id, rhoncus libero. Nulla id vehicula ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc malesuada, lorem vitae pulvinar pellentesque, est mauris tincidunt turpis, molestie fermentum nunc quam eu risus. Maecenas ut pulvinar dui.
+    </string>
+</resources>
