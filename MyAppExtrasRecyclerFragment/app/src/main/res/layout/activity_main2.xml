@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Informacion Adicional"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalles"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:layout_margin="5sp"
+            android:layout_gravity="center_vertical"
+            android:onClick="onClick"
+            />
+        <Button
+            android:id="@+id/btnEspecificaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Especificaciones"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:layout_margin="5sp"
+            android:layout_gravity="center_vertical"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/contenedorID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        />
+</LinearLayout>

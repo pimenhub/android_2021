@@ -45,6 +45,7 @@ public class AdaptadorRecycler extends RecyclerView.Adapter<AdaptadorRecycler.Vi
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+
             textViewN = itemView.findViewById(R.id.txtNombreR);
             textViewC = itemView.findViewById(R.id.txtCalidadR);
             imageView = itemView.findViewById(R.id.imgR);
@@ -55,5 +56,7 @@ public class AdaptadorRecycler extends RecyclerView.Adapter<AdaptadorRecycler.Vi
             textViewC.setText(cali);
             imageView.setImageResource(img);
         }
+
+
     }
 }

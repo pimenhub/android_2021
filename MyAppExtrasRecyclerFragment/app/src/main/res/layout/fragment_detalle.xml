@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentUno">
+    tools:context=".DetalleFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -11,23 +11,24 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
         <TextView
+            android:id="@+id/txtDetalle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto"
-            android:layout_margin="10sp"
+            android:text="@string/hello_blank_fragment"
+            android:layout_margin="20sp"
+            android:textSize="25sp"
             android:textColor="@color/black"
             />
-        <Button
-            android:id="@+id/btnF1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hola"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="25sp"
-            />
-
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </FrameLayout>

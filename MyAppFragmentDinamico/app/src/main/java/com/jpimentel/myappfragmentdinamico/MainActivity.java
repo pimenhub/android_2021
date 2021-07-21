@@ -4,12 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private Fragment fragment1, fragment2, fragment3;
     private FragmentTransaction transaction;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.contenedorID,fragment1).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.contenedorID,fragment2).hide(fragment2).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.contenedorID,fragment3).hide(fragment3).commit();
-
     }
 
     public void onClick(View view) {
@@ -58,8 +61,11 @@ public class MainActivity extends AppCompatActivity {
                     transaction.addToBackStack(null);
                 }
                 break;
+
         }
+
         transaction.commit();
 
     }
+
 }
