@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPe"
+        android:layout_width="100sp"
+        android:layout_height="120sp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtNombrePe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la pelicula"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/imgPe"
+        android:layout_marginTop="20sp"
+        />
+    <TextView
+        android:id="@+id/txtDuracionTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duracion:"
+        android:textSize="10sp"
+        android:layout_below="@id/txtNombrePe"
+        android:layout_toRightOf="@id/imgPe"
+        />
+    <TextView
+        android:id="@+id/txtDuracionPe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duracion"
+        android:textSize="15sp"
+        android:layout_below="@id/txtDuracionTexto"
+        android:layout_toRightOf="@id/imgPe"
+        />
+
+
+
+
+
+</RelativeLayout>

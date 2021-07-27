@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <ImageButton
+        android:id="@+id/imgBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_peli2"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:onClick="onClick"
+
+    />
+    <TextView
+        android:id="@+id/txtNombrePelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Pelicula"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textColor="@color/black"
+    />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabsID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        app:tabTextColor="@color/white"
+        />
+    <FrameLayout
+        android:id="@+id/contenedorID"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_margin="5sp"
+        />
+    <Button
+        android:id="@+id/btnComprarB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compra Boleto"
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@color/white"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>

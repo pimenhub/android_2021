@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Datos de Compra"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        />
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Nombre"
+        android:layout_below="@id/titulo"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Apellido"
+        android:layout_below="@id/edtNombre"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/edtNIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su NIT"
+        android:layout_below="@id/edtApellido"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtNumeroB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numero de Boletos"
+        android:layout_toRightOf="@id/edtApellido"
+        android:layout_below="@id/edtNombre"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/txtQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/txtPrecio"
+        android:layout_below="@id/edtNumeroB"
+        android:text="Q."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/txtPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNumeroB"
+        android:textSize="25sp"
+        android:text="Precio"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/txtQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/txtTotal"
+        android:layout_below="@id/edtNIT"
+        android:text="Q."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Total"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_below="@id/edtNIT"
+        />
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_below="@id/txtTotal"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_ticket"
+        />
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_margin="10dp"
+        android:text="Comprar"
+        android:layout_below="@id/imagen"
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@color/white"
+        android:onClick="onClick"
+        />
+
+
+
+</RelativeLayout>

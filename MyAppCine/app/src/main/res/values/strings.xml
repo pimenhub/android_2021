@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Cartelera</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="sinopsisString1">
+        <b><i>Sinopsis de la película:</i></b>\n\nGodzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra.
+    </string>
+    <string name="direcActString1">
+        <b><i>Director y Actores de la película:</i></b>\n\n<b><i>Director:</i></b> Adam Wingard\n\<b><i>Reparto:</i></b> Millie Bobby Brow, Rebecca Hall, Alexander Skarsgard, Eiza Gonzalez
+    </string>
+    <string name="puntuaRecaString1">
+        <b><i>Puntuacion y Recaudacion de la película:</i></b>\n\n<b><i>Puntuacion:</i></b> 5.5/10\n\n<b><i>Recaudacion:</i></b> $463.1 millones
+    </string>
+
+
+    <string name="sinopsisString2">
+        <b><i>Sinopsis de la película:</i></b>\n\nUna peligrosa conspiración, relacionada con su pasado, persigue a Natasha Romanoff, también conocida como Viuda Negra. La agente tendrá que lidiar con las consecuencias de haber sido espía, así como con las relaciones rotas, para sobrevivir.
+    </string>
+    <string name="direcActString2">
+        <b><i>Director y Actores de la película:</i></b>\n\n<b><i>Directora:</i></b> Cate Shortland\n\<b><i>Reparto:</i></b> Scarlett Johansson, Florence Pugh, David Harbour
+    </string>
+    <string name="puntuaRecaString2">
+        <b><i>Puntuacion y Recaudacion de la película:</i></b>\n\n<b><i>Puntuacion:</i></b> 6.9/10\n\n<b><i>Recaudacion:</i></b> $215 millones
+    </string>
+
+
+    <string name="sinopsisString3">
+        <b><i>Sinopsis de la película:</i></b>\n\nAtrapado en el espacio digital, la superestrella del baloncesto LeBron James se une a la banda de los Looney Tunes para derrotar al Goon Squad en un juego de baloncesto y salvar a su hijo.
+    </string>
+    <string name="direcActString3">
+        <b><i>Director y Actores de la película:</i></b>\n\n<b><i>Director:</i></b> Malcolm D. Lee\n\<b><i>Reparto:</i></b> Jeff Bergman, LeBron James, Sonequa Martin-Green, Don Cheadle,
+    </string>
+    <string name="puntuaRecaString3">
+        <b><i>Puntuacion y Recaudacion de la película:</i></b>\n\n<b><i>Puntuacion:</i></b> 4.3/10\n\n<b><i>Recaudacion:</i></b> $53,114,687
+    </string>
+
+
+    <string name="sinopsisString4">
+        <b><i>Sinopsis de la película:</i></b>\n\nCole Young, el luchador de MMA, acostumbrado a recibir palizas por dinero, desconoce su ascendencia, y tampoco sabe por qué el emperador Shang Tsung de Outworld ha enviado a su mejor guerrero, Sub-Zero, un Cryomancer sobrenatural, para dar caza a Cole. Ante esta situación, Cole teme por la seguridad de su familia y busca a Sonya Blade siguiendo las indicaciones de Jax, un comandante de las Fuerzas Especiales que tiene la misma extraña marca de dragón con la que nació Cole.
+    </string>
+    <string name="direcActString4">
+        <b><i>Director y Actores de la película:</i></b>\n\n<b><i>Director:</i></b> Simon McQuoid\n\<b><i>Reparto:</i></b> Lewis Tan, Hiroyuki Sanada, Joe Taslim, Tadanobu Asano, Ludi Lin
+    </string>
+    <string name="puntuaRecaString4">
+        <b><i>Puntuacion y Recaudacion de la película:</i></b>\n\n<b><i>Puntuacion:</i></b> 5.3/10\n\n<b><i>Recaudacion:</i></b> 83.6 millones
+    </string>
+
+
+    <string name="sinopsisString5">
+        <b><i>Sinopsis de la película:</i></b>\n\nUn profesor de música que ha perdido la pasión se transporta fuera de su cuerpo al "Gran Antes" y debe encontrar el camino de regreso con la ayuda de un alma infantil que aprende sobre sí misma.
+    </string>
+    <string name="direcActString5">
+        <b><i>Director y Actores de la película:</i></b>\n\n<b><i>Directores:</i></b> Pete Docter, Kemp Powers\n\<b><i>Reparto:</i></b> Jamie Foxx, Tina Fey, Graham Norton
+    </string>
+    <string name="puntuaRecaString5">
+        <b><i>Puntuacion y Recaudacion de la película:</i></b>\n\n<b><i>Puntuacion:</i></b> 7.5/10\n\n<b><i>Recaudacion:</i></b> $119.2 millones
+    </string>
+
+
+    <string name="sinopsisString6">
+        <b><i>Sinopsis de la película:</i></b>\n\nBruce Wayne se une a Diana Prince, tras el sacrificio de Superman, para reclutar a un equipo de metahumanos que protejan el mundo de una amenaza inminente de proporciones catastróficas. La tarea es más difícil de lo que Bruce imaginaba, ya que cada uno de los reclutas deberá enfrentarse a sus propios demonios antes de unirse a esta liga.
+    </string>
+    <string name="direcActString6">
+        <b><i>Director y Actores de la película:</i></b>\n\n<b><i>Director:</i></b> Zack Snyder\n\<b><i>Reparto:</i></b> Ben Affleck, Henry Cavill, Amy Adams, Gal Gadot, Ray Fisher, Jason Momoa, Ezra Miller
+    </string>
+    <string name="puntuaRecaString6">
+        <b><i>Puntuacion y Recaudacion de la película:</i></b>\n\n<b><i>Puntuacion:</i></b> 7.0/10\n\n<b><i>Recaudacion:</i></b> $657.9 millones
+    </string>
+
+</resources>
