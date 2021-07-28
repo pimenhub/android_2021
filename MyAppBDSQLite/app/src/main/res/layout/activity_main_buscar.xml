@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityBuscar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar Bebida por ID"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edtBuscarBebida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese ID a buscar"
+            android:textSize="25sp"
+            android:layout_margin="10sp"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/btnBuscarBebida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="Buscar"
+            android:textSize="25sp"
+            android:backgroundTint="#E30000"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtNombreBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----------"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/txtSaborBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----------"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/txtTipoBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----------"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/txtPrecioBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----------"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+
+</LinearLayout>

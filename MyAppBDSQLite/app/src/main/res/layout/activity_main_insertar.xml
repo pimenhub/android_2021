@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityInsertar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Bebidas"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        />
+    <EditText
+        android:id="@+id/edtNombreBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:hint="Nombre Bebida"
+        />
+    <EditText
+        android:id="@+id/edtSaborBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:hint="Sabor Bebida"
+        />
+    <EditText
+        android:id="@+id/edtTipoBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:hint="Tipo Bebida"
+        />
+    <EditText
+        android:id="@+id/edtPrecioBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:hint="Precio Bebida"
+        />
+
+    <Button
+        android:id="@+id/btnInsertarBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:textSize="20sp"
+        android:text="Insertar Bebida"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>
