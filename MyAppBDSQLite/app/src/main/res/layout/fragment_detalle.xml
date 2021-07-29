@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id:"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            />
+        <TextView
+            android:id="@+id/idFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_margin="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Bebida:"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            />
+        <TextView
+            android:id="@+id/nombreFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_margin="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabor Bebida:"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            />
+        <TextView
+            android:id="@+id/saborFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_margin="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo Bebida:"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            />
+        <TextView
+            android:id="@+id/tipoFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_margin="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio Bebida Q.:"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            />
+        <TextView
+            android:id="@+id/precioFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_margin="15sp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

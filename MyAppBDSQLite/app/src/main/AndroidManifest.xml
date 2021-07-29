@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppBDSQLite">
-        <activity android:name=".MainActivityBuscar"></activity>
+        <activity android:name=".MainActivityDetalle"></activity>
+        <activity android:name=".MainActivityMostrar" />
+        <activity android:name=".MainActivityBuscar" />
         <activity android:name=".MainActivityInsertar" />
         <activity android:name=".MainActivity">
             <intent-filter>
