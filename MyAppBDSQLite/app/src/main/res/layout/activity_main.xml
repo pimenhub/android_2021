@@ -46,6 +46,26 @@
         android:backgroundTint="#E30000"
         android:onClick="onClick"
         />
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Actualizar"
+        android:textSize="20sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Eliminar"
+        android:textSize="20sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
     <ImageView
         android:layout_width="200sp"
         android:layout_height="200sp"

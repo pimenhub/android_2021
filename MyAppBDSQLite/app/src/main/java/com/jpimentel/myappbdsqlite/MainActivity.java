@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(getApplicationContext(), MainActivityMostrar.class);
                 startActivity(intent);
                 break;
+            case R.id.btnActualizar:
+                intent = new Intent(getApplicationContext(), MainActivityActualizar.class);
+                startActivity(intent);
+                break;
         }
     }
 }

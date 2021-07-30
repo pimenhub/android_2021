@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityActualizar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Bebida"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edtBuscarBebidaActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese ID a buscar"
+            android:textSize="25sp"
+            android:layout_margin="10sp"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/btnBuscarBebidaActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="Buscar"
+            android:textSize="25sp"
+            android:backgroundTint="#E30000"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtNombreActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="..."
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        />
+    <EditText
+        android:id="@+id/edtSaborActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="..."
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        />
+    <EditText
+        android:id="@+id/edtTipoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="..."
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        />
+    <EditText
+        android:id="@+id/edtPrecioActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="..."
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnActualizarBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:textSize="20sp"
+        android:layout_margin="15sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
