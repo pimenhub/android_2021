@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppBDSQLite">
-        <activity android:name=".MainActivityActualizar"></activity>
+        <activity android:name=".MainActivityEliminar"></activity>
+        <activity android:name=".MainActivityActualizar" />
         <activity android:name=".MainActivityDetalle" />
         <activity android:name=".MainActivityMostrar" />
         <activity android:name=".MainActivityBuscar" />

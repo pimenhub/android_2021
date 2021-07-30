@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(getApplicationContext(), MainActivityActualizar.class);
                 startActivity(intent);
                 break;
+            case R.id.btnEliminar:
+                intent = new Intent(getApplicationContext(), MainActivityEliminar.class);
+                startActivity(intent);
+                break;
         }
     }
 }
