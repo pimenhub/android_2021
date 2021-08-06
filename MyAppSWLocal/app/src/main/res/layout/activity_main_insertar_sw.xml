@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityInsertarSW">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Clientes"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edtNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Cliente"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtApellidoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Cliente"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono Cliente"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtDireccionCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion Cliente"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/btnInsertarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Insertar Cliente"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>

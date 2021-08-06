@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityEliminarSW">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Cliente"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edtBuscarClienteEliminar"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese ID a Eliminar"
+            android:textSize="25sp"
+            />
+        <ImageView
+            android:id="@+id/imgBuscarEliminar"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/ic_lupa"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25sp"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtNombreClienteEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#FF1100"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtApellidoClienteEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#FF1100"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtTelefonoClienteEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#FF1100"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtDireccionClienteEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#FF1100"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <Button
+        android:id="@+id/btnEliminarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Eliminar Cliente"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:elevation="5sp"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>
