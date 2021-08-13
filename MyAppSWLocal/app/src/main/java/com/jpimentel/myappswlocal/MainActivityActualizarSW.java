@@ -113,6 +113,7 @@ public class MainActivityActualizarSW extends AppCompatActivity implements Respo
     }
     @Override
     public void onErrorResponse(VolleyError error) {
-
+        Toast.makeText(this, "Error referente a A "+error, Toast.LENGTH_SHORT).show();
+        System.err.println("A***** "+error);
     }
 }

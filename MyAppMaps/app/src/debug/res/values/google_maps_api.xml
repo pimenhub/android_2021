@@ -1,0 +1,26 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=12:F6:D8:36:3D:38:B1:73:62:5D:E9:83:7D:DA:C1:EC:2B:4E:FD:FD%3Bcom.jpimentel.myappmaps
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.jpimentel.myappmaps
+
+    SHA-1 certificate fingerprint:
+    12:F6:D8:36:3D:38:B1:73:62:5D:E9:83:7D:DA:C1:EC:2B:4E:FD:FD
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyD-HH2VdfiAG8t2zjDJc3wEmd5lEuAKhoo
+    </string>
+</resources>

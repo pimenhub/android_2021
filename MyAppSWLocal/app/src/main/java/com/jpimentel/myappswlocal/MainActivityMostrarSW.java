@@ -37,17 +37,17 @@ public class MainActivityMostrarSW extends AppCompatActivity implements Response
         try {
             for(int i=0;i < jsonArray.length(); i++){
                 ClienteVO  clienteVO = new ClienteVO();
-                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                JSONObject jsonObject = jsonArray.getJSONObject(i);//1,2,3
                 clienteVO.setIdCliente(jsonObject.optInt("id_cliente"));
                 clienteVO.setNombreCliente(jsonObject.optString("nombre_cliente"));
                 clienteVO.setApellidoCliente(jsonObject.optString("apellido_cliente"));
                 clienteVO.setTelefonoCliente(jsonObject.optInt("telefono_cliente"));
                 clienteVO.setDireccionCliente(jsonObject.optString("direccion_cliente"));
 
-                listaClienteVO.add(clienteVO);
+                listaClienteVO.add(clienteVO);//1-2-3
             }
 
-            listaDatos = new ArrayList<>();
+            listaDatos = new ArrayList<>();//1*2*3
             for(int i=0;i < listaClienteVO.size();i++){
                 if(listaClienteVO.get(i).getIdCliente() != 0) {
                     listaDatos.add(listaClienteVO.get(i).getIdCliente() + ". " + listaClienteVO.get(i).getNombreCliente());
