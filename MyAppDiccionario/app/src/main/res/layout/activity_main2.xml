@@ -5,21 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <TextView
+        android:id="@+id/tvTermino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Diccionario"
-        android:layout_gravity="center"
-        android:textSize="45sp"
+        android:text="Termino"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="@color/teal_700"
+        android:layout_margin="15sp"
         />
-    <ListView
-        android:id="@+id/lvPalabras"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <TextView
+        android:id="@+id/tvSignificado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Significado"
+        android:layout_margin="20sp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
         />
 
 
