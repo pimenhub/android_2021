@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertarActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Contacto Telefonico"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        />
+    <EditText
+        android:id="@+id/edtInsertarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Insertar Nombre"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edtInsertarApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Insertar Apellido"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edtInsertarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Insertar Telefono"
+        android:textColor="@color/black"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnInsertarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#FFC107"
+        android:text="Insertar Contacto"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>

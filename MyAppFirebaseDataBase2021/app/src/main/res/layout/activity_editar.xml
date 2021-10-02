@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edicion de Contactos Telefonicos"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        />
+    <EditText
+        android:id="@+id/edtEditarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Nombre"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edtEditarApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Apellido"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edtEditarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Telefono"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/btnActualizarDatos"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#4CAF50"
+            android:text="Actualizar Contacto"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:onClick="onClick"
+            />
+        <Button
+            android:id="@+id/btnEliminarDatos"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#F44336"
+            android:text="Eliminar Contacto"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+</LinearLayout>

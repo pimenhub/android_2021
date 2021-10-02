@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgId"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@android:drawable/sym_def_app_icon"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/txtCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/txtCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cod"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="@color/teal_200"
+        android:layout_margin="10dp"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnRevoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revoke"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="10dp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
